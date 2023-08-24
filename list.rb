@@ -7,6 +7,6 @@ class MyList
   end
 
   def each
-    @list.each {|item| yield(item) if block_given?}
-  end 
+    @list.each { |item| yield(item) if block_given? }
+  end
 end
