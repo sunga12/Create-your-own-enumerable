@@ -1,3 +1,5 @@
+require_relative 'list'
+
 # Create our list
 list = MyList.new(1, 2, 3, 4)
 # => #<MyList: @list=[1, 2, 3, 4]>
